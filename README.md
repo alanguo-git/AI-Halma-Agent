@@ -2,7 +2,7 @@
 This an artificial intelligent halma agent.  
 Implemented using minimax algorithm with alpha beta pruning.
 
-<img src="2.png" width=20% height=20%/> 
+<img src="2.PNG" width=20% height=20%/> 
 
 ## Getting started  
 1. Download the code and open the src folder.  
@@ -16,7 +16,7 @@ It is not a complete Halma game. But further development may happen in the futur
 The file input.txt in the current directory of your program will be formatted as follows:  
 <span style="color: cyan">First line:</span> A string SINGLE or GAME to let you know whether you are playing a single move (and can use all of the available time for it) of playing a full game with potentially many moves (in which case you should strategically decide how to best allocate your time across moves).  
 <span style="color: cyan">Second line:</span> A string BLACK or WHITE indicating which color you play. The colors will always be organized on the board as follows:  
-<img src="1.png" width=20% height=20%/>  
+<img src="1.PNG" width=20% height=20%/>  
 (black starts in the top-left corner and white in the bottom-right).  
 <span style="color: cyan">Third line:</span> A strictly positive floating point number indicating the amount of total play time remaining for your agent.
 <span style="color: cyan">Next 16 lines:</span> Description of the game board, with 16 lines of 16 symbols each:
